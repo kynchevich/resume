@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://freshia.ittown.by/order/ -->
+<html class="bx-core bx-no-touch bx-no-retina bx-chrome">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+<link href="./files/bootstrap.min.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./files/style.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./files/internal.css" type="text/css" data-template-style="true" rel="stylesheet">
+
+
+
+<script type="text/javascript" src="./files/jquery.min.js"></script>
+<script type="text/javascript" src="./files/script.js"></script>
+<title>Оформление заказа</title>
+</head>
+<body class="cms-index-index cms-home-page">
+	<div class="main-container col2-right-layout">
+		<div class="main container">
+			<div class="row">
+				<section class="col-sm-9 wow bounceInUp animated">
+					<div class="col-main">
+						<div class="page-title"><h2>Оформление заказа</h2></div>
+					    <div class="static-contain">
+							<form action="http://freshia.ittown.by/order/">
+								<ol class="one-page-checkout" id="checkoutSteps">
+									<li id="opc-billing" class="section allow active">
+									  <div class="step-title"> <span class="number">1</span>
+									    <h3>Ваши данные</h3>
+									    <!--<a href="#">Edit</a> --> 
+									  </div>
+									  <div id="checkout-step-billing" class="step a-item" style="">
+									      <fieldset class="group-select">
+									        <ul>
+									          <li id="billing-new-address-form">
+									            <fieldset>
+									              <ul>
+									                <li>
+									                  <div class="customer-name">
+									                    <div class="input-box name-firstname">
+									                      <label for="billing:firstname">Имя
+									                      	<span class="required">*</span>
+									                      </label>
+									                      <input type="text" required="" name="USER_NAME" title="Имя" class="input-text required-entry ">
+									                    </div>
+									                    <div class="input-box name-lastname">
+									                    	<label for="billing:firstname">Фамилия</label>
+									                    	<input type="text" name="USER_SURNAME" title="Фамилия" class="input-text  ">
+									                    </div>
+									                  </div>
+									                </li>
+									                <li>
+									                  <div class="customer-name">
+									                    <div class="input-box name-firstname">
+									                      <label for="billing:firstname">Телефон
+									                      	<span class="required">*</span>
+									                      </label>
+									                      <input type="text" required="" name="USER_PHONE" title="Телефон" class="input-text required-entry ">
+									                    </div>
+									                    <div class="input-box name-lastname">
+									                    	<label for="billing:firstname">Email
+									                    		<span class="required">*</span>
+									                    	</label>
+									                    	<input type="email" required="" name="USER_EMAIL" title="Email" class="input-text required-entry ">
+									                    </div>
+									                  </div>
+									                </li>
+
+									              </ul>
+									            </fieldset>
+									          </li>
+									        </ul>
+									        <p class="require"><em class="required">* </em>Обязательные поля</p>
+									        <button type="button" class="button continue"><span>Продолжить</span></button>
+									      </fieldset>
+									  </div>
+									</li>
+
+									<li id="opc-billing" class="section allow">
+									  <div class="step-title"> <span class="number">2</span>
+									    <h3>Способ доставки</h3>
+									    <!--<a href="#">Edit</a> --> 
+									  </div>
+									  <div id="checkout-step-billing" class="step a-item" style="">
+									      <fieldset class="group-select">
+									        <ul>
+									        	<li>
+									        	         		
+									        	  <input type="radio" name="USER_DELIVERY_TYPE" id="delivery_delivery_yes" value="delivery_yes" class="radio">
+									        	  <label for="delivery_delivery_yes">Да, нужна доставка</label>
+									        	         		
+									        	  <input type="radio" name="USER_DELIVERY_TYPE" id="delivery_delivery_no" value="delivery_no" class="radio">
+									        	  <label for="delivery_delivery_no">Вывезу сам</label>
+									        	</li>
+									        </ul>
+									        <button type="button" class="button continue"><span>Продолжить</span></button>
+									      </fieldset>
+									  </div>
+									</li>
+									<li id="opc-billing" class="section allow">
+									  <div class="step-title"> <span class="number">3</span>
+									    <h3>Адрес доставки</h3>
+									    <!--<a href="#">Edit</a> --> 
+									  </div>
+									  <div id="checkout-step-billing" class="step a-item" style="">
+									      <fieldset class="group-select">
+									        <ul>
+									        	<li>
+									        		<label for="billing:street1">Адрес
+									        			<span class="required">*</span>
+									        		</label>
+									        		<input type="text" required="" name="USER_ADDRESS" title="Адрес" class="input-text required-entry ">
+									        	</li>
+									        </ul>
+									        <p class="require"><em class="required">* </em>Обязательные поля</p>
+									        <button type="button" class="button continue"><span>Продолжить</span></button>
+									      </fieldset>
+									  </div>
+									</li>
+									<li id="opc-billing" class="section allow">
+									  <div class="step-title"> <span class="number">3</span>
+									    <h3>Коментрий к заказу</h3>
+									  </div>
+									  <div id="checkout-step-billing" class="step a-item" style="">
+									      <fieldset class="group-select">
+									        <ul>
+									        	<li>
+									        		<label for="billing:street1">Комментарий</label>
+									        		<textarea rows="4" type="text" name="USER_COMMENTS" title="Комментарий" class="input-text  ">
+									        		</textarea>
+									        	</li>
+									        </ul>
+									        <p class="require"><em class="required">* </em>Обязательные поля</p>
+									        <button type="button" class="button continue"><span>Продолжить</span></button>
+									      </fieldset>
+									  </div>
+									</li>
+									<li id="opc-review" class="section">
+									  <div class="step-title"> <span class="number">5</span>
+									    <h3 class="one_page_heading">Подтвердить заказ</h3>
+									    <!--<a href="#">Edit</a>--> 
+									  </div>
+									  <div id="checkout-step-review" class="step a-item">
+									    <div class="order-review" id="checkout-review-load"> </div>
+									    <div class="buttons-set13" id="review-buttons-container">
+									      <p class="f-left">Забыли товар? <a href="#">Вернуться в карточку товара</a></p>
+									      <button type="submit" class="button"><span>Заказать</span></button>
+									    </div>
+									  </div>
+									</li>
+								</ol>
+							</form>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
